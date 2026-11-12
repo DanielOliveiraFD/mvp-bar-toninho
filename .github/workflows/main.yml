@@ -1,0 +1,24 @@
+name: Pipeline de CI - Bar do Toninho
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Fazer o Checkout do código
+      uses: actions/checkout@v3
+
+    - name: Configurar o Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+
+    - name: Instalar dependências
+      run: npm install
+
+    - name: Rodar testes automatizados (Jest)
+      run: npm test
