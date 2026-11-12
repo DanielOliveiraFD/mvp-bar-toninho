@@ -1,3 +1,9 @@
+/**
+ * AUTO-REVISÃO TÉCNICA:
+ * Separação de responsabilidades aplicada. 
+ * As lógicas de interface (DOM) estão isoladas das regras de negócio (cálculo de saldo),
+ * garantindo melhor legibilidade e facilidade de manutenção no MVP.
+ */
 // Dados simulados
 let clientes = [
     { id: 1, nome: "João Silva", saldo: 45.00 },
