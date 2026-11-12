@@ -1,4 +1,4 @@
-// Dados simulados
+// Os dados abaixo simulam um banco de dados inicial para validar o funcionamento offline
 let clientes = [
     { id: 1, nome: "João Silva", saldo: 45.00 },
     { id: 2, nome: "Maria Oliveira", saldo: 12.50 },
