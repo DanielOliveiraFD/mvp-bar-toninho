@@ -1,0 +1,8 @@
+{
+  "name": "Bar do Antônio",
+  "short_name": "FiadoApp",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f4f9",
+  "theme_color": "#2c3e50"
+}

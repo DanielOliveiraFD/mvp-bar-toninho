@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background-color: #f4f4f9; color: #333; }
+.cabecalho { background-color: #2c3e50; color: white; text-align: center; padding: 1rem; }
+.container { padding: 1rem; max-width: 500px; margin: 0 auto; }
+
+/* Navegação SPA */
+.tela { display: none; }
+.tela.ativa { display: block; }
+
+/* Botões e Inputs - Foco em Acessibilidade (> 44px) */
+.btn { border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
+.btn-primario { background-color: #27ae60; color: white; padding: 15px; font-size: 18px; }
+.btn-grande { width: 100%; }
+
+/* Tela 1 */
+.busca-container { margin-bottom: 20px; }
+#busca-cliente { width: 100%; padding: 15px; font-size: 16px; border: 1px solid #ccc; border-radius: 8px; }
+.lista-clientes { list-style: none; }
+.cliente-item { background: white; padding: 20px 15px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ddd; display: flex; justify-content: space-between; font-size: 18px; cursor: pointer; }
+.texto-vermelho { color: #e74c3c; font-weight: bold; }
+
+/* Tela 2 */
+.cabecalho-tela { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+.btn-voltar { background: none; border: none; color: #2c3e50; font-size: 16px; font-weight: bold; cursor: pointer; }
+.info-cliente { background: #e8f8f5; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #27ae60; font-size: 18px; }
+.form-lancamento { display: flex; flex-direction: column; gap: 10px; }
+#valor-lancamento { padding: 15px; font-size: 24px; border: 2px solid #ccc; border-radius: 8px; text-align: right; }
+
+/* Tela 3 */
+.alerta-sucesso { background-color: #27ae60; color: white; padding: 20px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+.icone-sucesso { font-size: 40px; display: block; margin-bottom: 10px; }
+.extrato { background: white; padding: 20px; border-radius: 8px; border: 1px solid #ddd; font-size: 18px; line-height: 1.6; }
+.extrato hr { margin: 15px 0; border: 0; border-top: 1px solid #eee; }
+.saldo-total { font-size: 20px; text-align: center; }
+.saldo-total strong { color: #e74c3c; font-size: 28px; }
